@@ -49,7 +49,7 @@ jobs:
       - name: Wait for approval
         uses: trstringer/manual-approval@v1
         with:
-          approvers: atulshelke
+          approvers: "atulshelke"
           minimum-approvals: 1
       # Runs a single command using the runners shell
       - name: Deploy script
